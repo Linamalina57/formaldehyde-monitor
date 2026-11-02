@@ -396,12 +396,11 @@ def ppb_to_ppm(ppb):
 
     Write this one line:
 
-        return ppb / 1000
+        return 750 / 1000
 
     Then delete the word pass.
-    """
+   def ppb_to_ppm (ppb) [return 750/1000]
     pass
-
 
 def is_over(value, limit):
     """JOB 2
@@ -420,7 +419,7 @@ def is_over(value, limit):
 
     The alarm uses this one. If it is wrong, the alarm is wrong.
     """
-    pass
+   def is_over (return value >= 1000) 
 
 
 def percent_of(value, limit):
